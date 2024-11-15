@@ -37,7 +37,7 @@ elif len(password)==6 or len(password)==7 or len(password)==8:
         print('Error en el carácter 3', end = ' ')
         errores = errores+1
     
-    #Este if comprueba que el carácter 4 sea uno de los 3 crácteres especificados en las normas.
+    #Este if comprueba que el carácter 4 sea uno de los 3 símbolos especificados en las normas.
     if not password[3] == '*' and not password[3] == '_' and not password[3] == '@':
         print('Error en el carácter 4', end = ' ')
         errores = errores+1
