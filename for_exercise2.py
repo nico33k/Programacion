@@ -1,6 +1,6 @@
-var='abcdefg'
-cont=1
-
-for contador in var:
-    print('El valor', cont,'es', contador)
-    cont=cont+1
+var='buenos días'
+contar=0
+for recorrer in var:
+    print(recorrer)
+    contar+=1
+print(contar)
