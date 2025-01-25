@@ -7,10 +7,8 @@ positive = 0
 negative = 0
 ceros = 0
 suma_total = 0
-num_provi = int(input('Introdcue un número: '))
-if num_provi == -99
-num_may = num_provi
-num_men = num_provi
+num_may = None
+num_men = None
 while num != -99:
     num = int(input('Introduce un número: '))
     if num != -99:
@@ -25,10 +23,10 @@ while num != -99:
             negative+=1
         if num == 0:
             ceros+=1
-        if num>num_may:
-            num_may == num
-        if num<num_men:
-            num_men == num
+        if num_may is None or num > num_may:
+            num_may = num
+        if num_men is None or num < num_men:
+            num_men = num
 
 print('El número de pares es:', pares)
 print('El número de impares es', impares)
