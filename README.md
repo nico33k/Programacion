@@ -83,250 +83,47 @@ f) total de la suma de todos los números introducidos
 66. Repite el ejercicio 63. En lugar de ‘tirar’ 100 veces un dado, modifica el programa para ver cómo se comporta el dado en lanzamientos producidos durante aprox 3 segundos. 
 67. Realiza de nuevo el programa de Password (fase 2).
 
-69. Realiza un programa que permita introducir una cantidad exacta de números, cada número se 
-irá almacenando en una lista. El programa debe finalizar presentando por pantalla los números 
-ordenados de menor a mayor.
-4
-Introduce un número: 5
-Introduce un número: 2
-Introduce un número: 3
-Introduce un número: 1
-[1, 2, 3, 5]
-PROGRAMACIÓN CON PYTHON
-Departamento de Tecnología
-70. Crea un programa que permita introducir x palabras en una lista llamada lista1. Una vez 
-introducidas, crea una nueva lista, llamada lista2, exactamente igual a lista1. Se deben mostrar por 
-pantalla el contenidos de lista1 en orden ascendente y lista2 en orden descendente. Respeta el 
-formato de entrada y salida tal y como se muestra en el testeo.
-introduce la cantidad de palabras: 3
-Introduce 1ª palabra: mar
-Introduce 2ª palabra: cal
-Introduce 3ª palabra: sal
-lista1 contiene: ['cal', 'mar', 'sal']
-lista2: contiene ['sal', 'mar', 'cal']
-71. Haz un programa que permita al usuario introducir letras en una lista (cantidad indefinida), en 
-esta lista no deben almacenarse las letras que se han introducido repetidas.
-introduce una letra: r
-¿Deseas repetir s/n: s
-Introduce una letra: g
-¿Deseas repetir s/n: s
-Introduce una letra: r
-¿Deseas repetir s/n: s
-Introduce una letra: h
-¿Deseas repetir s/n: n
-['r', 'g', 'h']
-Introduce una letra: ú
-¿Deseas repetir s/n:s
-Introduce una letra: e
-¿Deseas repetir s/n:s
-Introduce una letra: u
-¿Deseas repetir s/n:s
-Introduce una letra: 5
-Introduce una letra: 5
-Introduce una letra: 5
-Introduce una letra: a
-¿Deseas repetir s/n:n
-['ú', 'e', 'u', 'a']
-72. A partir del ejercicio anterior, se da por hecho que las vocales con o sin acento son repetidas y 
-no deben almacenarse en la lista
-Introduce una letra: u
-¿Deseas repetir s/n: s
-Introduce una letra: ú
-¿Deseas repetir s/n: s
-Introduce una letra: a
-¿Deseas repetir s/n: s 
-Introduce una letra: ù
-¿Deseas repetir s/n: s
-Introduce una letra: á
-¿Deseas repetir s/n: n
-['u', 'a']
-73. Diseña un programa que compruebe si los valores de la lista1 (casa,mesa,sal,sol,agua) están 
-repetidos o no en la lista2 (casa,luz,tres,tren,sol,pan). Haz que permita visualizar que palabras se 
-repiten y cuales no
-Están repetidas: ['casa', 'sol']
-No están repetidas: ['luz', 'tres', 'pan']
-PROGRAMACIÓN CON PYTHON
-Departamento de Tecnología
-74. A partir del programa anterior, haz que se visualicen tanto las palabras que se repiten o no de 
-entre las 2 listas.
-Están repetidas: ['casa', 'sol']
-No están repetidas: ['luz', 'tres', 'pan', 'mesa', 'sal', 'agua']
-75. Crea una lista con el siguiente nombre lista1 y su contenido: a,b,D,x,r,X,3,h,w,2,i. Presenta por 
-pantalla los siguientes resultados:
-a. Cantidad total de valores
-b. Cantidad de números
-c. Cantidad de letras
-d. Cantidad de mayúsculas
-e. Suma de los valores numéricos
-Número de valores: 11
-Cantidad de números: 2
-Cantidad de letras: 9
-Cantidad de mayúsculas: 2
-Suma total de números: 5
-76. A partir de la lista del enunciado anterior, haz que el programa visualice por un lado las letras 
-y por otro los números permitiendo escoger orden ascendente o descendente. Como observarás 
-en la salida, el orden de las letras no es correcto, busca la manera de solucionarlo.
-Introduce 1 para visualizar en orden 
-ascendente o 2 descendente: 1
-Introduce 1 para visualizar en orden 
-ascendente o 2 descendente: 2
-[2, 3]
-['D', 'X', 'a', 'b', 'h', 'i', 'r', 'w', 'x']
-[3, 2]
-['x', 'w', 'r', 'i', 'h', 'b', 'a', 'X', 'D']
-77. A partir de la lista del enunciado anterior, haz que el programa visualice por un lado las letras 
-y por otro los números permitiendo escoger orden ascendente o descendente. Como observarás 
-en la salida, el orden de las letras no es correcto, busca la manera de solucionarlo.
-Introduce 1 para visualizar en orden 
-ascendente o 2 descendente: 1
-Introduce 1 para visualizar en orden 
-ascendente o 2 descendente: 2
-[2, 3]
-['D', 'X', 'a', 'b', 'h', 'i', 'r', 'w', 'x']
-[3, 2]
-['x', 'w', 'r', 'i', 'h', 'b', 'a', 'X', 'D']
-78. A partir de la lista definida en el ejercicio 75, haz que el programa pregunte qué valor se desea 
-eliminar de la lista, siendo únicamente los números los valores permitidos para suprimir
-Introduce el valor que deseas eliminar: r
-Introduce el valor que deseas eliminar:2
-Introduce el valor que deseas eliminar:6
-Introduce el valor que deseas eliminar:3
-Introduce valor numérico
-Deseas introducir otro valor s/n: s
-['a', 'b', 'D', 'x', 'r', 'X', '3', 'h', 'w', 'i']
-Deseas introducir otro valor s/n: s
-El valor introducido no está en la lista
-Deseas introducir otro valor s/n: s
-['a', 'b', 'D', 'x', 'r', 'X', 'h', 'w', 'i']
-Deseas introducir otro valor s/n: n
-PROGRAMACIÓN CON PYTHON
-Departamento de Tecnología
-79. A través de la variable definida var1="a,b,1,r,sal,34,mar”. Pasa estos valores a una lista y haz 
-que presente por pantalla cantidad de valores almacenada. Utiliza el método que corresponde. 
-Máximo 3 líneas de código.
-a,b,1,r,sal,34,mar 7
+Ejercicios listas
+69.   Programa que permita introducir una cantidad exacta de números, cada número se irá almacenando en una lista. El programa debe finalizar presentando por pantalla los números ordenados de menor a mayor.
+70. Crea un programa que permita introducir x palabras en una lista llamada lista1. Una vez introducidas, crea una nueva lista, llamada lista2, exactamente igual a lista1. Se deben mostrar por pantalla el contenidos de lista1 en orden ascendente y lista2 en orden descendente.
+71. Haz un programa que permita al usuario introducir letras en una lista (cantidad indefinida), en esta lista no deben almacenarse las letras que se han introducido repetidas.
+72. A partir del ejercicio anterior, se da por hecho que las vocales con o sin acento son repetidas y no deben almacenarse en la lista
+73. Programa que compruebe si los valores de la lista1 (casa,mesa,sal,sol,agua) están repetidos o no en la lista2 (casa,luz,tres,tren,sol,pan). Haz que permita visualizar que palabras se repiten y cuales no
+74. A partir del programa anterior, haz que se visualicen tanto las palabras que se repiten o no de entre las 2 listas.
+75. Crea una lista con el siguiente nombre lista1 y su contenido: a,b,D,x,r,X,3,h,w,2,i. Presenta por pantalla los siguientes resultados:
+76. A partir de la lista del enunciado anterior, haz que el programa visualice por un lado las letras y por otro los números permitiendo escoger orden ascendente o descendente.
+77. A partir de la lista del enunciado anterior, haz que el programa visualice por un lado las letras y por otro los números permitiendo escoger orden ascendente o descendente.
+78. A partir de la lista definida en el ejercicio 75, haz que el programa pregunte qué valor se desea eliminar de la lista, siendo únicamente los números los valores permitidos para suprimir
+79. A través de la variable definida var1="a,b,1,r,sal,34,mar”. Pasa estos valores a una lista y haz que presente por pantalla cantidad de valores almacenada. Utiliza el método que corresponde. 
 80. Utilizando listas, crea un programa que te permita determinar si un número es decimal o no. 
-12
-12.1
-Hola
-12.
-6.098
-6.09a
-4.34.2
-No es un número con decimales
-Es un número con decimales
-No es un número con decimales
-No es un número con decimales
-Es un número con decimales
-No es un número con decimales
-No es un número con decimales
-81. A partir de una lista definida, busca el método apropiado para que se visualice un valor de la 
-lista al azar.
-casa,barco,gato,perro,madera,agua,puente,pantalón
-82. Modifica el programa anterior para que sea el usuario intente adivinar la palabra escogida al 
-azar de la lista, indicando si es correcto o no. El programa debe no finaliza hasta que no se adivine 
-la palabra
-Introduce la palabra secreta: barco
-Introduce la palabra secreta: casa
-Introduce la palabra secreta: perro
-Introduce la palabra secreta: madera
-SIGUE JUGANDO
-SIGUE JUGANDO
-SIGUE JUGANDO
-ACERTASTE
-83. Modifica el código del ejercicio anterior para que el programa permita repetir x partidas (hasta 
-que el usuario lo decida). Tienes que controlar una puntuación de cada partida de la siguiente 
-manera, si la palabra la aciertas a la primera son 8 puntos, si la aciertas a la segunda 7 puntos y así 
-sucesivamente.
-Una vez el usuario desea finalizar el programa tiene que sumar todas tus puntuaciones obtenidas. 
-Si el total supera la media de la puntuación posible de todas las partidas, se puede decir que la 
-suerte le acompaña, de lo contrario mejor no Se dediques a los juegos de azar . PISTA.. ¿existe 
-algún método que permita sumar el contenido de una lista?
-Puntuación [4, 8, 7]
-Tu puntuación ha sido de 19
-La media las partidas realizadas es: 12.0
-Tienes buena suerte
-Puntuación [2, 3, 1,5]
-Tu puntuación ha sido de 11
-La media las partidas realizadas es: 16.0
-Dedicate al parchís
-PROGRAMACIÓN CON PYTHON
-Departamento de Tecnología
-84. A partir de la lista definida en el ejercicio 81, haz que se visualice por pantalla una de las 
-palabras, pero con todas sus letras desordenadas. El usuario tendrá que recolocar y acertar la 
-palabra secreta. El usuario tendrá 3 oportunidades para adivinar la palabra. 
-['u', 'n', 'p', 'e', 't', 'e']
-['ó', 'n', 'l', 'p', 't', 'n', 'a', 'a']
-Introduce palabra correcta: nepute
-no has acertado
-Introduce palabra correcta: petune
-no has acertado
-Introduce palabra correcta: puente
-Acertaste
-Introduce palabra correcta: ponlata
-no has acertado
-Introduce palabra correcta: lónata
-no has acertado
-Introduce palabra correcta: talpanó
-no has acertado
-no has acertado ninguno de los intentos
-85. Te piden realizar un programa en que gestionen la media y la mediana de varias de tres 
-asignaturas de legua: catalán, inglés y castellano. Una vez introducidos varios registros el 
-programa debe mostrar la media y mediana los todos los alumnos introducidos
-Introduce estudiante: Marta
-Nota inglés:2
-Nota castellano: 7
-Nota catalán: 8
-Deseas introducir otro alumno s/n: s
-Introduce estudiante: Jordi
-Nota inglés:9
-Nota castellano: 2
-Nota catalán: 5
-Deseas introducir otro alumno s/n: s
-Introduce estudiante: Marc
-Nota inglés:3
-Nota castellano: 6
-Nota catalán: 6
-Deseas introducir otro alumno s/n: n
-Introduce estudiante: Marta
-Nota inglés:4
-Nota castellano: 5
-Nota catalán: 5
-Deseas introducir otro alumno s/n: s
-Introduce estudiante: Jordi
-Nota inglés:1
-Nota castellano: 2
-Nota catalán: 1
-Deseas introducir otro alumno s/n: s
-Introduce estudiante: Manel
-Nota inglés:3
-Inglés: [2.0, 3.0, 9.0]
-Castellano: [2.0, 6.0, 7.0]
-Catalán: [5.0, 6.0, 8.0]
-La media en inglés es: 4.6
-La media en castellano es: 5.0
-La media en catalán es: 6.3
-La mediana en inglés es: 3.0
-La mediana en castellano es: 6.0
-La mediana en catalán es: 6.0
-[1.0, 3.0, 4.0, 9.0]
-[2.0, 2.0, 5.0, 10.0]
-[1.0, 5.0, 7.0, 10.0]
-RESUMEN
-La media en inglés es: 4.25
-La media en castellano es: 4.75
-La media en catalán es: 5.75
-La mediana en inglés es: 3.5
-La mediana en castellano es: 3.5
-La mediana en catalán es: 6.0
-PROGRAMACIÓN CON PYTHON
-Departamento de Tecnología
-Nota castellano: 2
-Nota catalán: 7
-Deseas introducir otro alumno s/n: s
-Introduce estudiante: Carla
-Nota inglés:9
-Nota castellano: 10
-Nota catalán: 10
-Deseas introducir otro alumno s/n: n
-86. Realiza el ejercicio del DNI que encontrarás en el Swa
+81. A partir de una lista definida, busca el método apropiado para que se visualice un valor de la lista al azar.
+82. Modifica el programa anterior para que sea el usuario intente adivinar la palabra escogida al azar de la lista, indicando si es correcto o no. El programa debe no finaliza hasta que no se adivine.
+83. Modifica el código del ejercicio anterior para que el programa permita repetir x partidas (hasta que el usuario lo decida). Tienes que controlar una puntuación de cada partida de la siguiente 
+manera, si la palabra la aciertas a la primera son 8 puntos, si la aciertas a la segunda 7 puntos y así sucesivamente.
+84. A partir de la lista definida en el ejercicio 81, haz que se visualice por pantalla una de las palabras, pero con todas sus letras desordenadas. El usuario tendrá que recolocar y acertar la palabra secreta. 
+85. Programa en que gestionen la media y la mediana de varias de tres asignaturas de legua: catalán, inglés y castellano. Una vez introducidos varios registros el programa debe mostrar la media y mediana
+
+Ejercicios Jutge
+1. P68688   Hello world!
+2. P62421   Three wordsPython
+3. P57548   Sum of two integer numbersPython
+4. P41221   Sum of three integer numbersPython
+5. P56118   Maximum of two integer numbersPython
+6. P52847   Maximum of three different integer numbersPython
+7. P90615   Maximum of three integer numbersPython
+8. P15613   TemperaturesPython
+9. P48107   Integer division and remainder of two natural numbersPython
+10. P92351   Integer division and remainder of an integer number by a natural numberPython
+11. P98960   Uppercase and lowercase lettersPython
+12. P42042   Classification of characters (1)Python
+13. P90226   Comparison of wordsPython
+14. P92613   RoundingPython
+15. P37469   Time decomposition (1)Python
+16. P34279   Add one secondPython
+17. P81629   Minimum changePython
+18. P61634   Leap yearsPython
+19. P51126   Intervals (1)Python
+20. P56559   Intervals (2)Python
+21. P89265   Intervals (3)Python
+22. P58294   The answer
+
