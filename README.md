@@ -21,7 +21,7 @@ Ejercicios iniciales
 17. Calcula el índice de masa corporal IMC de una persona, introduciendo por teclado el peso (en kg) y dividiendo por la estatura (en metros y elevado al cuadrado). Si el resultado es igual o superior a 25, debe aparecer un mensaje informando de sobrepeso.
 18. Cines Paradiso celebran su décimo aniversario y por ser un día especial realizan importantes descuentos. A los adultos se les aplicará un 10% de descuento y a los menores de 18 años un 50%. Si la entrada cuesta 12 euros, calcula el total a pagar introduciendo por teclado el número de menores y el número de adultos que asisten al cine.
 
-
+Ejercicios condicionales
 19. Programa que introduzca dos números y devuelva cuál de los dos es mayor, menor o son iguales
 20. A partir del ejercicio anterior, forzar que el usuario solo pueda introducir por teclados números entre 0 y 10
 21. Programa que calcula una ecuación de segundo grado. Controla que el valor de la raíz cuadrada no de un valor negativo
@@ -39,7 +39,7 @@ Ejercicios iniciales
 33. Programa un código que permita contar el número de vocales de la siguiente frase: No hay mal que dure cien años
 34. Corrige los 4 errores o añade el código que necesites para que el siguiente programa se ejecute correctamente
 
-Ejercicios bucles
+Ejercicios bucles for
 35. Programa que al introducir un número por teclado permita mostrar ese número de veces tu nombre
 36. Programa que sume los n primeros números naturales. n Lo introduce el usuario.
 37. Programa que pregunte cuantas notas quiero introducir y para cada nota diga si estoy aprobado o suspendido.
@@ -57,3 +57,276 @@ la secuencia en descenso. Respeta el formato de salida
 48. Realiza un programa que introduzcas por teclado una palabra ‘secreta’, consigue la longitud de esa palabra para que sea ese el criterio que establezca el rango del bucle de manera que el usuario tenga x oportunidades para ver si letra introducida está en esa palabra.
 49. A partir del programa anterior, modifica el código para que al introducir la letra por teclado te indique en qué posición de la palabra se encuentra la letra.
 
+Ejercicios bucles while
+50. Realiza un programa que de los buenos días 3 veces. Con While
+51. A partir del programa anterior, modifica el código para que sea el usuario quién introduzca el número de veces que desea que repita la frase Buenos días. Con While
+52. Realiza un programa que sume dos números enteros por teclado y presente el resultado por pantalla. El programa preguntará si deseas o no repetir la operación. Con While
+53. A partir del código anterior, haz que aparezca al finalizar el programa por pantalla el total las sumas y el número de repeticiones. Con While
+54. Modifica el programa anterior y haz que se repita el ciclo automáticamente hasta que el total de todas las sumas sea superior a 50, será entonces cuando el programa finalice.
+55. Haz que sea todo exactamente igual pero teniendo en cuenta que el programa se repita siempre y cuando la suma acumulada sea superior a 50 o la suma acumulada sea par. Con While
+56. Realiza un programa que gestione un establecimiento de venta de bocadillos. Un pedido se compone de: bocadillo, acompañamiento y bebida. Un cliente puede pedir más de un pedido.
+57. Realiza un programa que permita adivinar un número comprendido entre 1 y 5. El programa debe controlar si el usuario introduce un número no comprendido entre 1 y 5
+58. Modifica el programa anterior para que tengas 3 intentos. Utiliza while
+59. Diseña un programa que “piense” un numero aleatorio entre 0 y 1000 para que nos pida que intentemos adivinarlo.
+60. Diseña un programa que al introducir un número, realice su tabla de multiplicar del 1 al 10. Utiliza únicamente el while
+61. A partir del código anterior, haz que el programa finalice si el valor de la tabla de multiplicar es superior o igual a 40.
+62. Realiza un programa que pida dos números por teclado y presente por pantalla qué números hay pares e impares en ese rango. Utiliza for. Contempla si primer valor es superior al segundo.
+63. Realiza un programa que permita tirar 100 veces un dado y nos presente por pantalla el número de veces que se repite cada número.
+64. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor -99. Será entonces cuando por pantalla aparecerán las siguientes estadísticas:
+a) total de pares
+b) total de impares
+c) total de números positivos
+d) total de números negativos
+e) total de ceros
+f) total de la suma de todos los números introducidos
+65. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor -99. Por pantalla debe aparecer cuál de todos los números introducidos es el mayo y cuál el menor.
+66. Repite el ejercicio 63. En lugar de ‘tirar’ 100 veces un dado, modifica el programa para ver cómo se comporta el dado en lanzamientos producidos durante aprox 3 segundos. 
+67. Realiza de nuevo el programa de Password (fase 2).
+
+69. Realiza un programa que permita introducir una cantidad exacta de números, cada número se 
+irá almacenando en una lista. El programa debe finalizar presentando por pantalla los números 
+ordenados de menor a mayor.
+4
+Introduce un número: 5
+Introduce un número: 2
+Introduce un número: 3
+Introduce un número: 1
+[1, 2, 3, 5]
+PROGRAMACIÓN CON PYTHON
+Departamento de Tecnología
+70. Crea un programa que permita introducir x palabras en una lista llamada lista1. Una vez 
+introducidas, crea una nueva lista, llamada lista2, exactamente igual a lista1. Se deben mostrar por 
+pantalla el contenidos de lista1 en orden ascendente y lista2 en orden descendente. Respeta el 
+formato de entrada y salida tal y como se muestra en el testeo.
+introduce la cantidad de palabras: 3
+Introduce 1ª palabra: mar
+Introduce 2ª palabra: cal
+Introduce 3ª palabra: sal
+lista1 contiene: ['cal', 'mar', 'sal']
+lista2: contiene ['sal', 'mar', 'cal']
+71. Haz un programa que permita al usuario introducir letras en una lista (cantidad indefinida), en 
+esta lista no deben almacenarse las letras que se han introducido repetidas.
+introduce una letra: r
+¿Deseas repetir s/n: s
+Introduce una letra: g
+¿Deseas repetir s/n: s
+Introduce una letra: r
+¿Deseas repetir s/n: s
+Introduce una letra: h
+¿Deseas repetir s/n: n
+['r', 'g', 'h']
+Introduce una letra: ú
+¿Deseas repetir s/n:s
+Introduce una letra: e
+¿Deseas repetir s/n:s
+Introduce una letra: u
+¿Deseas repetir s/n:s
+Introduce una letra: 5
+Introduce una letra: 5
+Introduce una letra: 5
+Introduce una letra: a
+¿Deseas repetir s/n:n
+['ú', 'e', 'u', 'a']
+72. A partir del ejercicio anterior, se da por hecho que las vocales con o sin acento son repetidas y 
+no deben almacenarse en la lista
+Introduce una letra: u
+¿Deseas repetir s/n: s
+Introduce una letra: ú
+¿Deseas repetir s/n: s
+Introduce una letra: a
+¿Deseas repetir s/n: s 
+Introduce una letra: ù
+¿Deseas repetir s/n: s
+Introduce una letra: á
+¿Deseas repetir s/n: n
+['u', 'a']
+73. Diseña un programa que compruebe si los valores de la lista1 (casa,mesa,sal,sol,agua) están 
+repetidos o no en la lista2 (casa,luz,tres,tren,sol,pan). Haz que permita visualizar que palabras se 
+repiten y cuales no
+Están repetidas: ['casa', 'sol']
+No están repetidas: ['luz', 'tres', 'pan']
+PROGRAMACIÓN CON PYTHON
+Departamento de Tecnología
+74. A partir del programa anterior, haz que se visualicen tanto las palabras que se repiten o no de 
+entre las 2 listas.
+Están repetidas: ['casa', 'sol']
+No están repetidas: ['luz', 'tres', 'pan', 'mesa', 'sal', 'agua']
+75. Crea una lista con el siguiente nombre lista1 y su contenido: a,b,D,x,r,X,3,h,w,2,i. Presenta por 
+pantalla los siguientes resultados:
+a. Cantidad total de valores
+b. Cantidad de números
+c. Cantidad de letras
+d. Cantidad de mayúsculas
+e. Suma de los valores numéricos
+Número de valores: 11
+Cantidad de números: 2
+Cantidad de letras: 9
+Cantidad de mayúsculas: 2
+Suma total de números: 5
+76. A partir de la lista del enunciado anterior, haz que el programa visualice por un lado las letras 
+y por otro los números permitiendo escoger orden ascendente o descendente. Como observarás 
+en la salida, el orden de las letras no es correcto, busca la manera de solucionarlo.
+Introduce 1 para visualizar en orden 
+ascendente o 2 descendente: 1
+Introduce 1 para visualizar en orden 
+ascendente o 2 descendente: 2
+[2, 3]
+['D', 'X', 'a', 'b', 'h', 'i', 'r', 'w', 'x']
+[3, 2]
+['x', 'w', 'r', 'i', 'h', 'b', 'a', 'X', 'D']
+77. A partir de la lista del enunciado anterior, haz que el programa visualice por un lado las letras 
+y por otro los números permitiendo escoger orden ascendente o descendente. Como observarás 
+en la salida, el orden de las letras no es correcto, busca la manera de solucionarlo.
+Introduce 1 para visualizar en orden 
+ascendente o 2 descendente: 1
+Introduce 1 para visualizar en orden 
+ascendente o 2 descendente: 2
+[2, 3]
+['D', 'X', 'a', 'b', 'h', 'i', 'r', 'w', 'x']
+[3, 2]
+['x', 'w', 'r', 'i', 'h', 'b', 'a', 'X', 'D']
+78. A partir de la lista definida en el ejercicio 75, haz que el programa pregunte qué valor se desea 
+eliminar de la lista, siendo únicamente los números los valores permitidos para suprimir
+Introduce el valor que deseas eliminar: r
+Introduce el valor que deseas eliminar:2
+Introduce el valor que deseas eliminar:6
+Introduce el valor que deseas eliminar:3
+Introduce valor numérico
+Deseas introducir otro valor s/n: s
+['a', 'b', 'D', 'x', 'r', 'X', '3', 'h', 'w', 'i']
+Deseas introducir otro valor s/n: s
+El valor introducido no está en la lista
+Deseas introducir otro valor s/n: s
+['a', 'b', 'D', 'x', 'r', 'X', 'h', 'w', 'i']
+Deseas introducir otro valor s/n: n
+PROGRAMACIÓN CON PYTHON
+Departamento de Tecnología
+79. A través de la variable definida var1="a,b,1,r,sal,34,mar”. Pasa estos valores a una lista y haz 
+que presente por pantalla cantidad de valores almacenada. Utiliza el método que corresponde. 
+Máximo 3 líneas de código.
+a,b,1,r,sal,34,mar 7
+80. Utilizando listas, crea un programa que te permita determinar si un número es decimal o no. 
+12
+12.1
+Hola
+12.
+6.098
+6.09a
+4.34.2
+No es un número con decimales
+Es un número con decimales
+No es un número con decimales
+No es un número con decimales
+Es un número con decimales
+No es un número con decimales
+No es un número con decimales
+81. A partir de una lista definida, busca el método apropiado para que se visualice un valor de la 
+lista al azar.
+casa,barco,gato,perro,madera,agua,puente,pantalón
+82. Modifica el programa anterior para que sea el usuario intente adivinar la palabra escogida al 
+azar de la lista, indicando si es correcto o no. El programa debe no finaliza hasta que no se adivine 
+la palabra
+Introduce la palabra secreta: barco
+Introduce la palabra secreta: casa
+Introduce la palabra secreta: perro
+Introduce la palabra secreta: madera
+SIGUE JUGANDO
+SIGUE JUGANDO
+SIGUE JUGANDO
+ACERTASTE
+83. Modifica el código del ejercicio anterior para que el programa permita repetir x partidas (hasta 
+que el usuario lo decida). Tienes que controlar una puntuación de cada partida de la siguiente 
+manera, si la palabra la aciertas a la primera son 8 puntos, si la aciertas a la segunda 7 puntos y así 
+sucesivamente.
+Una vez el usuario desea finalizar el programa tiene que sumar todas tus puntuaciones obtenidas. 
+Si el total supera la media de la puntuación posible de todas las partidas, se puede decir que la 
+suerte le acompaña, de lo contrario mejor no Se dediques a los juegos de azar . PISTA.. ¿existe 
+algún método que permita sumar el contenido de una lista?
+Puntuación [4, 8, 7]
+Tu puntuación ha sido de 19
+La media las partidas realizadas es: 12.0
+Tienes buena suerte
+Puntuación [2, 3, 1,5]
+Tu puntuación ha sido de 11
+La media las partidas realizadas es: 16.0
+Dedicate al parchís
+PROGRAMACIÓN CON PYTHON
+Departamento de Tecnología
+84. A partir de la lista definida en el ejercicio 81, haz que se visualice por pantalla una de las 
+palabras, pero con todas sus letras desordenadas. El usuario tendrá que recolocar y acertar la 
+palabra secreta. El usuario tendrá 3 oportunidades para adivinar la palabra. 
+['u', 'n', 'p', 'e', 't', 'e']
+['ó', 'n', 'l', 'p', 't', 'n', 'a', 'a']
+Introduce palabra correcta: nepute
+no has acertado
+Introduce palabra correcta: petune
+no has acertado
+Introduce palabra correcta: puente
+Acertaste
+Introduce palabra correcta: ponlata
+no has acertado
+Introduce palabra correcta: lónata
+no has acertado
+Introduce palabra correcta: talpanó
+no has acertado
+no has acertado ninguno de los intentos
+85. Te piden realizar un programa en que gestionen la media y la mediana de varias de tres 
+asignaturas de legua: catalán, inglés y castellano. Una vez introducidos varios registros el 
+programa debe mostrar la media y mediana los todos los alumnos introducidos
+Introduce estudiante: Marta
+Nota inglés:2
+Nota castellano: 7
+Nota catalán: 8
+Deseas introducir otro alumno s/n: s
+Introduce estudiante: Jordi
+Nota inglés:9
+Nota castellano: 2
+Nota catalán: 5
+Deseas introducir otro alumno s/n: s
+Introduce estudiante: Marc
+Nota inglés:3
+Nota castellano: 6
+Nota catalán: 6
+Deseas introducir otro alumno s/n: n
+Introduce estudiante: Marta
+Nota inglés:4
+Nota castellano: 5
+Nota catalán: 5
+Deseas introducir otro alumno s/n: s
+Introduce estudiante: Jordi
+Nota inglés:1
+Nota castellano: 2
+Nota catalán: 1
+Deseas introducir otro alumno s/n: s
+Introduce estudiante: Manel
+Nota inglés:3
+Inglés: [2.0, 3.0, 9.0]
+Castellano: [2.0, 6.0, 7.0]
+Catalán: [5.0, 6.0, 8.0]
+La media en inglés es: 4.6
+La media en castellano es: 5.0
+La media en catalán es: 6.3
+La mediana en inglés es: 3.0
+La mediana en castellano es: 6.0
+La mediana en catalán es: 6.0
+[1.0, 3.0, 4.0, 9.0]
+[2.0, 2.0, 5.0, 10.0]
+[1.0, 5.0, 7.0, 10.0]
+RESUMEN
+La media en inglés es: 4.25
+La media en castellano es: 4.75
+La media en catalán es: 5.75
+La mediana en inglés es: 3.5
+La mediana en castellano es: 3.5
+La mediana en catalán es: 6.0
+PROGRAMACIÓN CON PYTHON
+Departamento de Tecnología
+Nota castellano: 2
+Nota catalán: 7
+Deseas introducir otro alumno s/n: s
+Introduce estudiante: Carla
+Nota inglés:9
+Nota castellano: 10
+Nota catalán: 10
+Deseas introducir otro alumno s/n: n
+86. Realiza el ejercicio del DNI que encontrarás en el Swa
