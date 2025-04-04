@@ -1,7 +1,7 @@
 # Programacion
 ejemplos y contenido programacion PAI 5
 
-Ejercicios iniciales
+EJERCICIOS INICIALES
 1. Programa que muestre por pantalla la frase “hello world”
 2. Programa que introduzca por teclado tres tipos de variables y se muestren por pantalla en el siguiente orden: número entero, texto y número decimal.
 3. Programa que pida dos números enteros y realice la suma correspondiente
@@ -21,7 +21,8 @@ Ejercicios iniciales
 17. Calcula el índice de masa corporal IMC de una persona, introduciendo por teclado el peso (en kg) y dividiendo por la estatura (en metros y elevado al cuadrado). Si el resultado es igual o superior a 25, debe aparecer un mensaje informando de sobrepeso.
 18. Cines Paradiso celebran su décimo aniversario y por ser un día especial realizan importantes descuentos. A los adultos se les aplicará un 10% de descuento y a los menores de 18 años un 50%. Si la entrada cuesta 12 euros, calcula el total a pagar introduciendo por teclado el número de menores y el número de adultos que asisten al cine.
 
-Ejercicios condicionales
+
+EJERCICIOS CONDICIONALES
 19. Programa que introduzca dos números y devuelva cuál de los dos es mayor, menor o son iguales
 20. A partir del ejercicio anterior, forzar que el usuario solo pueda introducir por teclados números entre 0 y 10
 21. Programa que calcula una ecuación de segundo grado. Controla que el valor de la raíz cuadrada no de un valor negativo
@@ -39,7 +40,8 @@ Ejercicios condicionales
 33. Programa un código que permita contar el número de vocales de la siguiente frase: No hay mal que dure cien años
 34. Corrige los 4 errores o añade el código que necesites para que el siguiente programa se ejecute correctamente
 
-Ejercicios bucles for
+
+EJERCICIOS BUCLES FOR
 35. Programa que al introducir un número por teclado permita mostrar ese número de veces tu nombre
 36. Programa que sume los n primeros números naturales. n Lo introduce el usuario.
 37. Programa que pregunte cuantas notas quiero introducir y para cada nota diga si estoy aprobado o suspendido.
@@ -57,7 +59,8 @@ la secuencia en descenso. Respeta el formato de salida
 48. Realiza un programa que introduzcas por teclado una palabra ‘secreta’, consigue la longitud de esa palabra para que sea ese el criterio que establezca el rango del bucle de manera que el usuario tenga x oportunidades para ver si letra introducida está en esa palabra.
 49. A partir del programa anterior, modifica el código para que al introducir la letra por teclado te indique en qué posición de la palabra se encuentra la letra.
 
-Ejercicios bucles while
+
+EJERCICIOS BUCLES WHILE
 50. Realiza un programa que de los buenos días 3 veces. Con While
 51. A partir del programa anterior, modifica el código para que sea el usuario quién introduzca el número de veces que desea que repita la frase Buenos días. Con While
 52. Realiza un programa que sume dos números enteros por teclado y presente el resultado por pantalla. El programa preguntará si deseas o no repetir la operación. Con While
@@ -83,7 +86,8 @@ f) total de la suma de todos los números introducidos
 66. Repite el ejercicio 63. En lugar de ‘tirar’ 100 veces un dado, modifica el programa para ver cómo se comporta el dado en lanzamientos producidos durante aprox 3 segundos. 
 67. Realiza de nuevo el programa de Password (fase 2).
 
-Ejercicios listas
+
+EJERCICIOS LISTAS
 69.   Programa que permita introducir una cantidad exacta de números, cada número se irá almacenando en una lista. El programa debe finalizar presentando por pantalla los números ordenados de menor a mayor.
 70. Crea un programa que permita introducir x palabras en una lista llamada lista1. Una vez introducidas, crea una nueva lista, llamada lista2, exactamente igual a lista1. Se deben mostrar por pantalla el contenidos de lista1 en orden ascendente y lista2 en orden descendente.
 71. Haz un programa que permita al usuario introducir letras en una lista (cantidad indefinida), en esta lista no deben almacenarse las letras que se han introducido repetidas.
@@ -103,7 +107,8 @@ manera, si la palabra la aciertas a la primera son 8 puntos, si la aciertas a la
 84. A partir de la lista definida en el ejercicio 81, haz que se visualice por pantalla una de las palabras, pero con todas sus letras desordenadas. El usuario tendrá que recolocar y acertar la palabra secreta. 
 85. Programa en que gestionen la media y la mediana de varias de tres asignaturas de legua: catalán, inglés y castellano. Una vez introducidos varios registros el programa debe mostrar la media y mediana
 
-Ejercicios Jutge
+
+EJERCICIOS JUTGE
 1. P68688   Hello world!
 2. P62421   Three wordsPython
 3. P57548   Sum of two integer numbersPython
@@ -127,3 +132,23 @@ Ejercicios Jutge
 21. P89265   Intervals (3)Python
 22. P58294   The answer
 
+
+APARTADO SUMATIVAS
+Juego 7_5 fases 1y2
+Juego 7_5 fase 3
+Password
+UD_1 Sumativa:
+ejercicio 1
+ejercicio 2
+ejercicio 3
+ejercicio4
+Sumativa intermedia:
+ejercicio 1
+ejercicio 2
+ejercicio 3
+ejercicio 4
+Sumativa examen trimestral:
+ejercicio 1
+ejercicio 2
+ejercicio 3
+ejercicio 4
